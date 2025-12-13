@@ -1,0 +1,31 @@
+.certificates{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+.certificate-title{
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+}
+.certificate-bar ul li{
+    margin: 20px;
+    outline: none;
+    list-style: none;
+    border-radius: 50px;
+}
+.certificate-bar ul li img{
+    border-radius: 50px;
+    border:3px solid rgb(247, 11, 157);
+
+}
+.certificate-bar ul li img:hover{
+    transform: scale(1.09);
+    transition: 0.3s;
+}
+.certificate-bar ul{
+    gap: 40px;
+}
+
